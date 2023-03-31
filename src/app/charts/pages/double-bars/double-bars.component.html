@@ -1,0 +1,17 @@
+<h1>Gráfico de barras dobles</h1>
+<hr>
+
+<div class="row g-4 pt-5">
+  <div class="col-lg-6">
+    <app-bar-chart [isHorizontal]="true"
+                   [barChartData]="proveedoresData">
+    </app-bar-chart>
+  </div>
+
+  <div class="pt-4 pt-lg-0 col-lg-6">
+    <app-bar-chart [isHorizontal]="false"
+                   [barChartData]="productoData">
+    </app-bar-chart>
+  </div>
+</div>
+
